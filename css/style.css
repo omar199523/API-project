@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #707070;
+}
+.form{
+    width: 600px;
+    padding: 10px;
+    margin: 30vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid #ddd ;
+    border-radius: 10px;
+}
+.form input{
+    flex: 350px 2 1;
+    margin: 10px 10px 0px 0px;
+    padding: 7px;
+    font-size: 1.2em;
+}
+.form select{
+    flex: 180px 1 1;
+    margin: 10px 10px 0px 0px ;
+    padding: 7px;
+    font-size: 1.2em;
+}
